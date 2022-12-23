@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 import { Navigate, Outlet } from 'react-router-dom';
-
+import DashboardLayout from '../layouts/DashboardLayout';
 import { lazyImport } from '../utils/lazyImport';
 
 const { Products } = lazyImport(
@@ -14,7 +14,7 @@ const { Overview } = lazyImport(
 
 const App = () => {
   return (
-    <div>
+    <DashboardLayout>
       <Suspense
         fallback={
           <div>
@@ -24,7 +24,7 @@ const App = () => {
       >
         <Outlet />
       </Suspense>
-    </div>
+    </DashboardLayout>
   );
 };
 
