@@ -1,0 +1,36 @@
+// $blue-color: #000515;
+// $grey-color: #aaaaaa;
+// $main-color: #ff731d;
+
+// :export {
+//   blackColor: $black-color;
+//   greyColor: $grey-color;
+//   mainColor: $main-color;
+// }
+
+:root {
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+
+  --black-50: #cccccc;
+  --black-200: #b3b3b3;
+  --black-300: #9a9999;
+  --black-400: #818080;
+  --black-500: #676766;
+  --black-600: #4e4d4d;
+  --black-700: #353433;
+  --black-800: #1b1a19;
+  --black-900: #020100;
+
+  --red-900: #ae0014;
+  --green-900: #77ff94;
+  --yellow-900: #d5b942;
+}
