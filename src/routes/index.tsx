@@ -1,15 +1,16 @@
 /* eslint-disable react/jsx-no-useless-fragment */
 import { useRoutes } from 'react-router-dom';
 import { privateRoutes } from './private';
+import { publicRoutes } from './public';
 
 export const AppRoutes = () => {
-  //   const auth = useAuth();
+  const user = false;
 
   //   const commonRoutes = [{ path: '/', element: <Landing /> }];
 
-  //   const routes = auth.user ? protectedRoutes : publicRoutes;
+  const routes = user ? privateRoutes : publicRoutes;
 
-  const element = useRoutes([...privateRoutes]);
+  const element = useRoutes([...routes]);
 
   return <>{element}</>;
 };
