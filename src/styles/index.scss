@@ -1,0 +1,30 @@
+@import './reset';
+@import './responsive';
+@import './fonts';
+@import './colors';
+@import './typography';
+@import './vars';
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: calc(100vw / 1600 * 10);
+}
+
+body {
+  font-family: $main-font;
+  font-size: clamp(14px, 1.4rem, 1.4rem);
+  font-weight: 400;
+  min-height: 100vh;
+  background-color: var(--black-900);
+  color: var(--gray-50);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
