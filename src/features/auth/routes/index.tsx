@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import NotFound from '../../../components/not-found/NotFound';
+import NotFound from '@/components/not-found/NotFound';
 import { Login } from './login/Login';
 
 export const AuthRoutes = () => {

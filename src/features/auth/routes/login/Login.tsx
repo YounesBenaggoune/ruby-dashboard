@@ -1,5 +1,9 @@
 import './login.scss';
 
 export const Login = () => {
-  return <div>Login</div>;
+  return (
+    <div>
+      <h1>Hello</h1>
+    </div>
+  );
 };
