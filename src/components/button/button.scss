@@ -1,0 +1,14 @@
+.button {
+  button {
+    background-color: var(--black-900);
+    color: white;
+    padding: 1em 2em;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 4px;
+    margin-top: 10px;
+    // text-transform: uppercase;
+  }
+}
