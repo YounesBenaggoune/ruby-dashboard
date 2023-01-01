@@ -33,5 +33,11 @@ module.exports = {
         unnamedComponents: 'arrow-function',
       },
     ],
+    'jsx-a11y/label-has-associated-control': [
+      2,
+      {
+        assert: 'either', // either check for `htmlFor` or `nesting`
+      },
+    ],
   },
 };

@@ -1,0 +1,40 @@
+.text-field {
+  label {
+    font-weight: bold;
+  }
+  &__wrapper {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    input {
+      position: relative;
+      width: 280px;
+      padding-top: 0.8em;
+      padding-bottom: 0.8em;
+      padding-left: 15px; // 35
+      padding-right: 15px;
+      display: block;
+      border: 0.8px solid var(--gray-500);
+      border-radius: 4px;
+      background-color: transparent;
+      &:-webkit-autofill,
+      &:-webkit-autofill:hover,
+      &:-webkit-autofill:focus,
+      &:-webkit-autofill:active {
+        transition: background-color 5000s ease-in-out 0s;
+      }
+
+      &:focus {
+        border-color: var(--black-900);
+      }
+    }
+
+    &--icon {
+      input {
+        padding-left: 35px;
+      }
+    }
+  }
+}
